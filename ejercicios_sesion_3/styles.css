@@ -1,0 +1,67 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1,
+h2,
+li {
+  color: rgb(78, 74, 74);
+}
+.mec {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  background: pink;
+  display: block;
+}
+.mac {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  background: #bfe4fa94;
+  display: inline;
+}
+.mic {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  background: rgb(139, 218, 139);
+  display: inline-block;
+}
+.hexagon_3 {
+  width: 100px;
+  height: 100px;
+}
+.hexagon_4 {
+  width: 200px;
+  height: 200px;
+}
+.div_5 {
+  background: palegoldenrod;
+  padding: 10px;
+  border: 5px;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  align-content: center;
+}
+.hexagon_5 {
+  width: 100px;
+  height: 100px;
+}
+.container {
+  border: 1px solid deeppink;
+}
+.col {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}
+.container--1 {
+  height: 100px;
+  width: 200px;
+  overflow: hidden;
+}
+.container--2 {
+  height: 200px;
+  overflow: scroll;
+}
