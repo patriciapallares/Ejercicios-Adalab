@@ -1,0 +1,19 @@
+.hidden {
+  display: none;
+}
+
+.green {
+  background: green;
+}
+
+.red {
+  background: red;
+}
+
+.section1{
+  background-color: lightpink;
+}
+
+.section2{
+  background-color: lightblue;
+}
