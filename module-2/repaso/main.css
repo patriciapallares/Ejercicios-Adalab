@@ -1,0 +1,26 @@
+* {
+  margin:0;
+}
+
+.hidden {
+  display: none;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.amarillo {
+  background-color: #ffcc00;
+}
+
+.naranja {
+  background-color: #ff9900;
+}
+
