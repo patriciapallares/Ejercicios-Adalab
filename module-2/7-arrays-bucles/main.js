@@ -98,15 +98,26 @@ function averageAge(params) {
 
 averageAge(adalaber)
 
+console.log(averageAge(adalaber));
 // función que devuelve el nombre de la adalaber más joven
 
- function theYoungest() {
-   params.age.sort(function(a, b) {
-    retun a.age - b.age;
-}
+//  function theYoungest() {
+//    params.age.sort(function(a, b) {
+//     return a.age - b.age;
+
 
 // función que devuelve el núero de adalabers que son diseñadoras
+// típica función que es un contador
+
+
 
 function countDesigners() {
-  
-}
+  let count = 0;
+  for (const item of adalaber){
+    if(item.job === "diseñadora"){
+      count = count+1;
+      count += 1;
+      count++
+    }
+  }
+};
