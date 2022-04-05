@@ -96,7 +96,6 @@ perretes.addEventListener('click', getDogImage);
 
 // Peticiones que se ejecutan a la vez para poder realizar alguna acción cuando todas se han completado.
 
-
 const createPromise = () =>
   fetch('https://dog.ceo/api/breeds/image/random').then((response) =>
     response.json()
@@ -118,3 +117,4 @@ btn.addEventListener('click', getBreedImages);
 
 // Gestión de errores
 
+// No me ha dado leer la lección 
