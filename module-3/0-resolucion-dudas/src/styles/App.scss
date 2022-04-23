@@ -1,3 +1,20 @@
 .title {
   color: red;
 }
+
+.juan {
+  background-color: pink;
+}
+
+.invert-color {
+ filter: invert(100%);
+}
+
+.hidden {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
