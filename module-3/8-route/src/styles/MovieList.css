@@ -1,0 +1,1 @@
+.movies__list{display:flex;justify-content:center;flex-wrap:wrap}.movies__item{position:relative;width:30rem;margin:0 1rem 1rem 0;padding:.3rem;border-radius:.5rem;border:1px solid #ddd}.movies__title{margin-bottom:.5rem;padding-bottom:.5rem;border-bottom:1px solid #ddd;font-size:1rem;font-weight:bold;background-color:#7fffd4}

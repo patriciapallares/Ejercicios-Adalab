@@ -48,7 +48,7 @@ const handleClickCreateCard = (ev) => {
 // componentes:
 
 // creamos cardpreview.js
-function cardPreview(props) {
+function CardPreview(props) {
   return (
     "Pegar HTML"
     // pasarle los datos por props
@@ -57,7 +57,7 @@ function cardPreview(props) {
   )
 }
 
-export default cardPreview;
+export default CardPreview;
 
 // import del componente from ruta relativa
 

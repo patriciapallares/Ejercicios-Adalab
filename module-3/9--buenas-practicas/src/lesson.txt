@@ -1,0 +1,29 @@
+
+Arquitectura de software:
+
+ Define como van a interactuar todos los componentes
+
+
+
+PropTypes:
+
+ Si no recibo un valor por props, quiero que por defecto tu valor inicial sea tal. Validación para las programadoras. 
+ Cuando haya más de 1 prop, comprobar en console.log(props) para ver si vienen en objeto, como strings separados o como. Ej. MovieDetail 
+ En el formulario no necesitamos hacer lo de DefaultProps
+
+
+PropTypes:
+
+ Es un módulo que debemos instalar para decirle a las programmers que tipo de dato esperamos y si es obligatorio o no.
+
+
+Destructuring:
+
+ ¿?Ej MovieItem
+
+
+Loading:
+
+ No controlamos el tiempo de demora de la vuelta de la info o algo así. Vamos a poner un cargando o Loading. preguntamos si el listado tiene elementos o no.
+
+
