@@ -1,11 +1,10 @@
 function User(props) {
   return (
-    <a href='#'>
+    <a href='#top'>
       <img
-        src={props.user.image.large}
         className=''
+        src={props.user.image.large}
         alt={props.user.fullname}
-        title={props.user.fullname}
       />
       <h4 className='card__title'>{props.user.fullname}</h4>
       <p className='card__description'>{props.user.age}</p>

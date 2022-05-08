@@ -22,7 +22,7 @@ const App = () => {
       <nav>
         <ul>
           <li>
-            <a href='/'>Ir al inicio</a>
+            <a href='/'>Soy un cambio</a>
           </li>
           <li>
             <a href='/contacto'>Ir a contacto</a>

@@ -2,7 +2,7 @@ import FilterCountry from './FilterCountry';
 
 function Filters (props){
 return(
-  <section>
+  <section className="col2">
     <form action=''>
     <FilterCountry handleFilterCountry={props.handleFilterCountry}/>
     {/* <FilterCity/>

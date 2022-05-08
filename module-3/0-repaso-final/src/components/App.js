@@ -1,21 +1,21 @@
+// variable de estado para todos los usuarios
+// quiero que dataUsers se cargue una vez al abrir la página
+// necesito usar useEffect
+// la api devuelve una promesa
+
 import { useState, useEffect } from 'react';
 import getApiData from '../services/contactsApi';
-import Filters from './Filters';
 import UserList from './UserList';
+import Filters from './Filters';
 
-const App = () => {
-  // variable de estado para todos los usuarios
-
+function App() {
   const [dataUsers, setDataUsers] = useState([]);
-  // quiero que dataUsers se cargue una vez al abrir la página
-  // necesito usar useEffect
-
   const [filterCountry, setFilterCountry] = useState('');
 
   useEffect(() => {
-    // la api devuelve una promesa
-    getApiData().then((dataClean) => {
-      setDataUsers(dataClean);
+    getApiData().then((dataFromApi) => {
+      console.log(dataFromApi);
+      setDataUsers(dataFromApi);
     });
   }, []);
 
@@ -23,15 +23,18 @@ const App = () => {
     setFilterCountry(value);
   };
 
+  const userFilters = dataUsers.filter((user) => {
+    return user.country === filterCountry;
+  });
   return (
     <>
-      <h1 className='title--big'> Directorio de personas</h1>
-
-      <UserList users={dataUsers} />
-
-      <Filters handleFilterCountry={handleFilterCountry}/>
+      <h1 className="title--big">Directorio de personas</h1>
+      <div className="col2">
+        <Filters handleFilterCountry={handleFilterCountry} />
+        <UserList users={userFilters} />
+      </div>
     </>
   );
-};
+}
 
 export default App;

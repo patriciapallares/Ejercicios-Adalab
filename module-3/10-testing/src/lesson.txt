@@ -1,0 +1,17 @@
+El testing debería venir instalado en .json
+
+Podemos tener todos los ficheros para testing que necesitemos
+
+ qué podemos testear/comprobar en esta app?
+
+
+ que la app tenga un nombre específico
+ que tenemos los enlaces y los nombres de los mismos
+ que en el formulario estén los elementos Nombre y Desc
+ que los servicios de LS funcionen correctamente
+ que se añade la peli cuando clicamos
+
+ estructura test:
+ 1. preparar lo que voy a probar: componente, función, aplicación
+ 2. lanzar: buscar/ejecutar lo que quiero testear
+ 3. comprobar: ¿coincide con el valor esperado?

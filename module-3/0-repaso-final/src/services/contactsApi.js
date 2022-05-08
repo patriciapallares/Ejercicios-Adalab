@@ -2,7 +2,7 @@
 
 const getApiData = () => {
   return fetch('https://randomuser.me/api/?results=50')
-    .then((Response) => Response.JSON())
+    .then((Response) => Response.json())
     .then((data) => {
       // como nos quedamos solo con results (ver API) tenemos que hacer el map en data.results
       const dataClean = data.results.map((user) => {
