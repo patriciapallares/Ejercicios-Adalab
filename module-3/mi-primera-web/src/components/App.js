@@ -25,7 +25,7 @@ const App = () => {
             <a href='/'>Soy un cambio</a>
           </li>
           <li>
-            <a href='/contacto'>Ir a contacto</a>
+            <a href='/contacto'>Soy otro cambio</a>
           </li>
         </ul>
       </nav>
